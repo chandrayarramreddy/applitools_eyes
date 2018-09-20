@@ -4,7 +4,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import com.applitools.eyes.selenium.Eyes;
 import com.applitools.eyes.RectangleSize;
 
-public class Image_compare_HelloWorld {
+public class Submit {
 
 	public static void main(String[] args) throws InterruptedException {
 
