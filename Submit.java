@@ -16,7 +16,9 @@ public class Image_compare_HelloWorld {
 		// Initialize the eyes SDK and set your private API key.
 		Eyes eyes = new Eyes();
 		//eyes.setApiKey("o56yRL2H10scuzrsd99t14Nwv106d16eh5oMQ8zZfFjz4U110");
-		eyes.setApiKey("2Dw5101Ql32LWT5U4CANwu9wCetWWsJqaypRXNNu66A1A110");
+		String apiKey = System.getenv("APPLITOOLS_API_KEY");
+                eyes.setApiKey(apiKey);
+		//eyes.setApiKey("2Dw5101Ql32LWT5U4CANwu9wCetWWsJqaypRXNNu66A1A110");
 		
 
 		try {
